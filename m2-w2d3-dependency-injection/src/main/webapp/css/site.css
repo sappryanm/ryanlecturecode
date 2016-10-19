@@ -1,0 +1,22 @@
+img.product {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+table#shoppingCart {
+	margin-bottom: 1em;
+}
+
+table#shoppingCart td, th {
+	border: 1px solid black;
+	padding: 1em;
+}
+
+th.total {
+	text-align: right;
+}
+
+form {
+	margin-bottom: 1em;
+}
