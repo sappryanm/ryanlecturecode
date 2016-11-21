@@ -1,0 +1,17 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1 {
+  background-color: #349EEB;
+}
+input, select{
+  margin-bottom: 10px;
+}
+label {
+    vertical-align: top;
+    display: inline-block;
+    width: 200px;
+}
+.subcheck {
+    margin-left: 20px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign-up for Something Free</title>
+  <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+  <form>
+    <h1>Sign-up for Something Free</h1>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email"/>
+    <br/>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"/>
+    <br/>
+    <label for="confirm">Confirm</label>
+    <input type="password" name="confirm" id="confirm"/>
+    <br/>
+    <label for="company">Company</label>
+    <input type="text" name="company" id="company"/>
+    <br/>
+    <label for="website">Website</label>
+    <input type="text" name="website" id="website"/>
+    <br/>
+    <label for="industry">Industry</label>
+    <select name="industry" id="industry">
+      <option></option>
+      <option value="Agriculture">Agriculture</option>
+      <option value="IT">IT</option>
+      <option value="Widgets">Widgets</option>
+      <option value="Zoology">Zoology</option>
+    </select>
+    <br/>
+    <label for="position">Position</label>
+    <select name="position" id="position">
+      <option></option>
+      <option value="Administrative">Administrative</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Executive">Executive</option>
+      <option value="Management">Management</option>
+    </select>
+    <br/>
+    <label for="numberOfEmployees">Number of Employees</label>
+    <select name="numberOfEmployees" id="numberOfEmployees">
+      <option></option>
+      <option value="1000+">1,000 or more</option>
+      <option value="500+">500 - 999</option>
+      <option value="100+">100 - 499</option>
+      <option value="1+">100 or less</option>
+    </select>
+    <br/>
+    <input type="checkbox" id="promotionalMaterial" /> Barrage my inbox with promotional materials<br/>
+    <input type="checkbox" id="allNewsletters" /> Send me newsletters I'll never read<br/>
+    <input type="checkbox" class="subcheck" id="chkFarmAndComputing" /> Farm and Computing<br/>
+    <input type="checkbox" class="subcheck" id="chkImpossibleAlgorithmsWeekly" /> Impossible Algorithms Weekly<br/>
+    <input type="checkbox" class="subcheck" id="chkBitsNBytes" /> Bits n Bytes<br/>
+    <input type="submit" value="Give me my free stuff"><br/>
+  </form>
+</body>
+</html>
