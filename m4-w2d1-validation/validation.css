@@ -1,17 +1,16 @@
-* {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+﻿div {
+    margin-bottom: 10px;
 }
-h1 {
-  background-color: #349EEB;
-}
-input, select{
-  margin-bottom: 10px;
-}
+
 label {
-    vertical-align: top;
     display: inline-block;
-    width: 200px;
+    min-width: 200px;
 }
-.subcheck {
-    margin-left: 20px;
+
+label.error {
+    color: red;
+    /*background:url(Red_x.png) no-repeat 0px 0px;
+    background-size: 15px;
+    padding-left:15px;
+    margin-left: 5px;*/ /*uncomment when ready */
 }
