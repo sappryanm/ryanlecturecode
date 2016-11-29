@@ -68,7 +68,7 @@ public class NotificationController {
 		/* If the String returned by a handler method starts with "redirect:", this causes Spring
 		 * to send an HTTP 3xx redirect response to the client. In this case, the value following 
 		 * "redirect:" is treated as an HTTP resource and **NOT** a logical view name. */
-		return "redirect:/notificationSignupResult";
+		return "notificationSignupResult";
 	}
 	
 	@RequestMapping(path="/notificationSignupResult", method=RequestMethod.GET)

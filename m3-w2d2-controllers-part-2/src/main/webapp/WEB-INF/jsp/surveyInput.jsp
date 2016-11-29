@@ -14,10 +14,6 @@
 					<label for="color">What is your favorite color?</label>
 					<input type="text" name="color" id="color" />
 				</div>
-				<div class="formGroup">
-					<label for="natureOfQuest">What is your quest?: </label>
-					<input type="text" name="natureOfQuest" id="natureOfQuest" />
-				</div>	
 				<div class="formGroup">		
 					<label for="petPreference">Do you prefer cats or dogs?: </label>
 					<input type="text" name="petPreference" id="petPreference" />

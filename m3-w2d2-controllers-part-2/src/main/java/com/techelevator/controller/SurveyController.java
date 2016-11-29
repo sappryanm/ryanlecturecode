@@ -19,7 +19,8 @@ public class SurveyController {
 	@RequestMapping(path="/surveyInput", method=RequestMethod.POST)
 	public String processSurveyInput(Survey survey) {
 		
-		// here we do something useful with the survey object
+		System.out.println(survey.getEmailAddress());
+		System.out.println(survey.getColor());
 
 		return "redirect:/surveyResult";
 	}
